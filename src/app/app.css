@@ -1,0 +1,34 @@
+.tabs{
+    display: flex;
+    background: rgb(0, 0, 0);
+    padding: 12px;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+
+.home{
+    margin-right:10px;
+    color: white;
+    font-size: 20px;
+}
+
+.home:hover {
+    font-size: 30px;
+}
+
+.program{
+    margin-right:10px;
+    color: white;
+    font-size: 25px;
+}
+
+.program:hover {
+    font-size: 30px;
+}
+
+.contact{
+    margin-left: auto;
+     color: rgb(129, 235, 93);
+    font-size: 16px;
+}
