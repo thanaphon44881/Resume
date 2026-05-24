@@ -42,8 +42,6 @@
     color: #b6ff9c;
 }
 
-/* MOBILE */
-
 @media(max-width: 768px){
 
     .tabs{
@@ -62,3 +60,5 @@
     }
 
 }
+
+
