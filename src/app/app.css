@@ -14,6 +14,8 @@
     flex-wrap: wrap;
 }
 
+/* MENU */
+
 .tabs a{
     text-decoration: none;
     transition: 0.3s;
@@ -32,6 +34,8 @@
     transform: scale(1.1);
 }
 
+/* CONTACT */
+
 .contact{
     margin-left: auto;
     color: #81eb5d;
@@ -42,9 +46,12 @@
     color: #b6ff9c;
 }
 
+/* MOBILE */
+
 @media(max-width: 768px){
 
     .tabs{
+        justify-content: center;
         gap: 15px;
         padding: 15px;
     }
@@ -56,9 +63,7 @@
     }
 
     .contact{
-        margin-left: auto;
+        margin-left: 0;
     }
 
 }
-
-
